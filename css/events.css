@@ -57,15 +57,15 @@ section {
     flex: 2;
 }
 
-#cover1{
-  background-image: url('../img/events/cover-1.jpg')
-}
-#cover2{
-  background-image: url('../img/events/cover-2.jpg')
-}
-#cover3{
-  background-image: url('../img/events/cover-3.jpg')
-}
 #cover4{
   background-image: url('../img/events/cover-4.jpg')
+}
+#cover5{
+  background-image: url('../img/events/cover-5.jpg')
+}
+#cover6{
+  background-image: url('../img/events/cover-6.jpg')
+}
+#cover7{
+  background-image: url('../img/events/cover-7.jpg')
 }
