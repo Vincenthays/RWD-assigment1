@@ -57,15 +57,15 @@ section {
     flex: 2;
 }
 
-#buddhaGarden{
-  background-image:url(../img/buddhaGarden.jpg);
+#cover1{
+  background-image: url('../img/events/cover-1.jpg')
 }
-#seaMeditation{
-  background-image:url(../img/seaMeditation.jpg);
+#cover2{
+  background-image: url('../img/events/cover-2.jpg')
 }
-#temple{
-  background-image:url(../img/temple.jpg);
+#cover3{
+  background-image: url('../img/events/cover-3.jpg')
 }
-#mountainMeditation{
-  background-image:url(../img/mountainMeditation.jpg);
+#cover4{
+  background-image: url('../img/events/cover-4.jpg')
 }

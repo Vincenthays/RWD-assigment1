@@ -1,3 +1,9 @@
+@media (max-width: 1000px) {
+    main {
+        flex-direction: column;
+    }
+}
+
 section {
     display: flex;
     flex-direction: column;
@@ -8,7 +14,7 @@ aside {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-    min-width: 400px;
+    min-width: 350px;
 }
 
 .aside-title {
@@ -24,7 +30,7 @@ aside {
 }
 
 .aside-card {
-    height: 20vh;
+    height: 160px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     margin: 10px 15px;
@@ -37,7 +43,7 @@ aside {
 }
 
 .aside-card-image {
-    width: 20vh;
+    width: 160px;
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -186,27 +192,27 @@ aside {
     margin: auto;
 }
 
-#mainbg{
-  background-image:url(../img/mainbg.jpg);
+#cover{
+  background-image:url('../img/cover.jpg');
 }
-#smallBuddha{
-  background-image:url(../img/smallBuddha.png);
+#cover1{
+  background-image: url('../img/events/cover-1.jpg')
 }
-#zenGarden{
-  background-image:url(../img/zenGarden.jpg);
+#cover2{
+  background-image: url('../img/events/cover-2.jpg')
 }
-#macroBuddha{
-  background-image:url(../img/macroBuddha.jpg);
+#cover3{
+  background-image: url('../img/events/cover-3.jpg')
 }
-#buddhaGarden{
-  background-image:url(../img/buddhaGarden.jpg);
+#cover4{
+  background-image: url('../img/events/cover-4.jpg')
 }
-#seaMeditation{
-  background-image:url(../img/seaMeditation.jpg);
+#cover5{
+  background-image: url('../img/events/cover-5.jpg')
 }
-#temple{
-  background-image:url(../img/temple.jpg);
+#cover6{
+  background-image: url('../img/events/cover-6.jpg')
 }
-#mountainMeditation{
-  background-image:url(../img/mountainMeditation.jpg);
+#cover7{
+  background-image: url('../img/events/cover-7.jpg')
 }
