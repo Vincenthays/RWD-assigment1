@@ -1,6 +1,7 @@
 header {
     display: flex;
-    background-color: #F6DB6F;
+    background-color: #FAEEBB;
+    border-bottom: 2px solid #F5DC74;
     position: fixed;
     width: 100%;
     /* height: 50px; */
@@ -34,11 +35,11 @@ main {
 }
 
 .header-content > a:hover {
-    background-color: #f1c40f;
+    background-color: #F5DC74;
 }
 
 a.header-content-active {
-    background-color: #f1c40f;
+    background-color: #F5DC74;
 }
 
 
