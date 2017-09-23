@@ -27,6 +27,7 @@ footer {
 footer a {
     text-decoration: none;
     color: black;
+    transition: 0.7s;
 }
 
 /* .footer-row > div:hover, */
