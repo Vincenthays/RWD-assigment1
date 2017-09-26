@@ -35,7 +35,9 @@ aside {
     transition: 0.3s;
     margin: 10px 15px;
     display: flex;
-    background-color: white;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
 }
 
 .aside-card:hover {
@@ -53,15 +55,19 @@ aside {
 .aside-card-content {
     flex: 1;
     padding: 10px;
-    display: flex;
-    flex-direction: column;
+    height: 250px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.aside-card:hover .aside-card-content {
+    transform: translateY(-74px);
 }
 
 .aside-card-content-title {
     font-weight: bold;
     text-align: right;
-    margin-bottom: 20px;
-    flex: 1;
+    margin-bottom: 47px;
 }
 
 .aside-card-content-row {
@@ -96,14 +102,8 @@ aside {
 }
 
 .section-content {
-    margin-top: 30px;
+    margin: 0px;
     flex: 1;
-    padding: 10px;
-    display: flex;
-}
-
-.section-content {
-    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -114,7 +114,7 @@ aside {
     font-family: 'Lucida Sans',sans-serif;
     font-size: 30px;
     font-weight: bold;
-    color: #E7164A;
+    color: #ff6f69;
 }
 
 /* News */
@@ -122,31 +122,39 @@ aside {
 .section-card {
     margin: 10px;
     height: 400px;
-    width: 35vh;
-    display: flex;
-    flex-direction: column;
+    width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-color: white;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+}
+
+.section-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .section-card-image {
-    height: 30vh;
+    height: 220px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .section-card-content {
-    flex: 1;
     padding: 10px;
-    display: flex;
-    flex-direction: column;
+    background-color: white;
+    transition: 0.3s;
+    height: 300px;
+}
+
+.section-card:hover .section-card-content {
+    transform: translateY(-130px);
 }
 
 .section-card-content-title {
-    flex: 1;
     text-align: center;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .section-card-content-row {

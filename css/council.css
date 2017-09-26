@@ -24,16 +24,31 @@ section {
 
 .section-team-member {
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .section-team-member-image {
-    height: 30vh;
-    width: 30vh;
+    margin: 0px auto;
+    height: 230px;
+    width: 230px;
     border-radius: 50%;
     border: 3px solid #f5dc74;
+    overflow: hidden;
+    display: flex;
+}
+
+.section-team-member-image > div {
+    height: 100%;
+    width: 100%; 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.section-team-member-image > div:hover {
+    transform: scale(1.2);
 }
 
 .section-team-member-content {
@@ -67,4 +82,12 @@ section {
 
 .section-team-member-content-details > a > i {
     margin: auto;
+}
+
+.section-team-member-content-details > a {
+    transition: 1s;
+}
+
+.section-team-member-content-details > a:hover {
+    transform: rotate(360deg);
 }
