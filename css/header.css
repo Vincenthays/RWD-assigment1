@@ -96,6 +96,10 @@ audio::-webkit-media-controls-toggle-closed-captions-button
   display:none;
 }
 
+audio::-internal-media-controls-download-button{
+  display:none;
+}
+
 audio::-webkit-media-controls-mute-button{
   //background-color: #dd8c00;
   -webkit-filter: hue-rotate(143deg) saturate(10);
@@ -103,5 +107,4 @@ audio::-webkit-media-controls-mute-button{
 
 audio::-webkit-media-controls-panel {
   background: none;
-  width:2em;
 }
